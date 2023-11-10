@@ -9,7 +9,7 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			  sh '//home/grras/slave-dir/apache-maven-3.9.5/bin/mvn install'
+			  sh '/home/grras/slave-dir/apache-maven-3.9.5/bin/mvn install'
 	                 }}
 		stage('Deployment'){
 		    steps {
